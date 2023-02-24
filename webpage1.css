@@ -1,0 +1,30 @@
+#n1 {
+    background: rgb(227, 241, 241);
+}
+
+#p1 {
+    text-anchor: rgb(72, 177, 177);
+}
+
+.ba {
+    font-style: normal;
+}
+
+#q1 {
+    font-style: italic;
+}
+
+#pp1 {
+    background-color: MediumSlateBlue;
+}
+
+#list {
+    color: black;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    font-weight: initial;
+    letter-spacing: 1px;
+    text-align: left;
+    width: 331px;
+}
