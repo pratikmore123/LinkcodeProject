@@ -1,0 +1,91 @@
+body {
+    color: #6F4369;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar a {
+    color: #6F4369;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.navbar svg:focus,
+svg:hover,
+li:hover {
+    color: #c887c0;
+}
+
+.navbar svg:active {
+    color: #995a91;
+}
+
+.navbar-brand {
+    text-align: center;
+    font-size: 5vh;
+    font-weight: 700;
+
+}
+
+.dropdown-menu {
+    width: 70vw;
+    height: 85vh;
+    background-color: #6F4369;
+    padding: 2vh;
+    margin-right: 10px;
+}
+
+.con-body a {
+    color: white;
+    white-space: normal;
+    line-height: 1.4;
+}
+
+.con-body a:hover {
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 1000px) {
+    /* Add your styles for screen sizes below 600px here */
+
+    /* Example styles for a list with an ID of "my-list" */
+    .dropdown-menu a {
+        display: block;
+        width: 100%;
+        white-space: normal;
+    }
+
+    .dropdown-menu li {
+        width: 20vw;
+        height: 4%;
+    }
+
+    .dropdown-menu {
+        overflow: scroll;
+        height: 80vh;
+        width: 90vw;
+    }
+
+    .dropdown-menu li {
+        margin-right: 40px;
+
+    }
+}
+
+.dropdown-item-h {
+    font-weight: 600;
+    color: beige;
+    /* font-size: larger; */
+    text-decoration: underline;
+    text-underline-offset: 0.3rem;
+}
+
+.dropdown-item-h:hover {
+    background-color: #6F4369;
+    color: aliceblue;
+}
+.footer p:hover{
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: #4f4e4e;
+}
